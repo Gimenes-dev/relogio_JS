@@ -41,7 +41,6 @@ const dragme = document.getElementById('dragme');
 let offsetX, offsetY, isDragging = false;
 
 dragme.addEventListener('mousedown', (e) => {
-    console.log("click")
     isDragging = true;
     offsetX = e.clientX - dragme.getBoundingClientRect().left;
     offsetY = e.clientY - dragme.getBoundingClientRect().top;
